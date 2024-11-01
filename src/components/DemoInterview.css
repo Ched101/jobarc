@@ -1,0 +1,184 @@
+/* Container */
+.demo-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+    background-color: #f7f7f7;
+    margin-top: 80px; /* This adds space below the header */
+
+  }
+  
+  /* Video Section */
+  .video-section {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .interview-video {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Form Section */
+  .form-section {
+    flex: 1;
+    margin-left: 30px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .form-section h2 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .input-container {
+    margin-bottom: 15px;
+  }
+  
+  .input-container label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .input-container input, .input-container textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+  }
+  
+  .start-interview-btn {
+    background-color: #00cc00;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .start-interview-btn:hover {
+    background-color: #009900;
+  }
+  
+
+  .demo-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+  }
+  
+  .video-section {
+    flex: 1;
+    margin-right: 20px;
+  }
+  
+  .interview-video {
+    width: 100%;
+    height: 400px;
+    background-color: #000;
+  }
+  
+  .form-section {
+    flex: 1;
+  }
+  
+  .input-container {
+    margin-bottom: 20px;
+  }
+  
+  .start-interview-btn, .stop-interview-btn {
+    padding: 10px 20px;
+    background-color: #00cc00;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  .start-interview-btn:hover, .stop-interview-btn:hover {
+    background-color: #028a0f;
+  }
+  
+  .controls {
+    margin-top: 20px;
+  }
+  
+  /* DemoInterview.css */
+.demo-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.video-section {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+}
+
+.interview-video {
+  width: 80%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.form-section {
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+}
+
+.input-container {
+  margin-bottom: 15px;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+button.start-interview-btn {
+  padding: 10px 20px;
+  background-color: #00cc00;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button.start-interview-btn:hover {
+  background-color: #028a0f;
+}
+
+.button-container {
+  display: flex;
+  justify-content: flex-end;
+}
+
+
+  
+
+  
+
+  
+
+  
+
+  

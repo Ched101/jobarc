@@ -1,0 +1,31 @@
+/* src/components/Header.css */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #111;
+    padding: 2px 20px;
+    position: fixed;
+    top: 0;
+    width: 97%;
+ 
+  }
+  
+  .logo h1 {
+    color: #00cc00;
+  }
+  
+  nav ul {
+    display: flex;
+    list-style: none;
+  }
+  
+  nav ul li {
+    margin-left: 20px;
+  }
+  
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+  }
+  

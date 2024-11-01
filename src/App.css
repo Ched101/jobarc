@@ -1,38 +1,196 @@
-.App {
-  text-align: center;
+/* Body styling */
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+  color: #333;
+  margin-top: 60px; /* Add space for the fixed header */
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+/* Header */
+header {
   display: flex;
-  flex-direction: column;
+  justify-content: space-between;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  background-color: #111;
+  padding: 10px 20px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+header .logo h1 {
+  color: #00cc00;
+}
+
+header nav ul {
+  display: flex;
+  list-style: none;
+}
+
+header nav ul li {
+  margin-left: 20px;
+}
+
+header nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #111;
+  color: white;
+  margin-top: 30px;
+}
+
+/* Overview Page Styling */
+.overview-container {
+  padding: 20px;
+  background-color: #f9f9f9;
+}
+
+.stats-overview {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.stat-box {
+  background-color: #ffffff;
+  padding: 20px;
+  width: 150px;
+  text-align: center;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+.stat-box h3 {
+  margin: 10px 0 5px;
+  font-size: 24px;
+  color: #333;
+}
+
+.stat-box p {
+  color: #888;
+  font-size: 14px;
+}
+
+.stat-box .icon {
+  font-size: 40px;
+  color: #00cc00;
+}
+
+/* Profile Progress */
+.profile-section {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.profile-section .progress-bar {
+  height: 20px;
+  width: 100%;
+  background-color: #f1f1f1;
+  border-radius: 10px;
+  margin: 10px 0;
+}
+
+.profile-section .progress {
+  height: 100%;
+  width: 60%; /* Adjust percentage dynamically */
+  background-color: #00cc00;
+  border-radius: 10px;
+}
+
+.profile-section .edit-profile {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 10px 20px;
+  background-color: #ff5722;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.profile-section .edit-profile:hover {
+  background-color: #e64a19;
+}
+
+/* Recently Applied Jobs */
+.applied-jobs {
+  margin-top: 30px;
+}
+
+.applied-jobs table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #ffffff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+.applied-jobs th, .applied-jobs td {
+  padding: 15px;
+  text-align: left;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.applied-jobs th {
+  background-color: #f1f1f1;
+  color: #333;
+}
+
+.applied-jobs tr:hover {
+  background-color: #f9f9f9;
+}
+
+.view-details-btn {
+  background-color: #00cc00;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.view-details-btn:hover {
+  background-color: #009900;
+}
+
+/* Sidebar */
+.sidebar {
+  position: fixed;
+  top: 60px; /* Adjust this based on the header height */
+  width: 200px;
+  height: 100%;
+  background-color: #1f3a57;
+  padding-top: 20px;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.sidebar a {
+  display: block;
+  padding: 10px;
+  color: white;
+  text-decoration: none;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.sidebar a:hover {
+  background-color: #374a67;
+}
+
+/* Content */
+.content {
+  margin-left: 220px; /* Width of sidebar + some spacing */
+  padding-top: 20px;
+  padding-left: 20px;
 }

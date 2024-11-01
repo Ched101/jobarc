@@ -1,0 +1,64 @@
+.applied-jobs-page {
+    padding: 20px;
+    background-color: #f9f9f9;
+  }
+  
+  .applied-jobs-page h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .applied-jobs-table table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #ffffff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+  }
+  
+  .applied-jobs-table th,
+  .applied-jobs-table td {
+    padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid #e0e0e0;
+  }
+  
+  .applied-jobs-table th {
+    background-color: #f1f1f1;
+    color: #333;
+  }
+  
+  .applied-jobs-table tr:hover {
+    background-color: #f9f9f9;
+  }
+  
+  .job-info h4 {
+    margin: 0;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  .job-info p {
+    margin: 2px 0;
+    font-size: 14px;
+    color: #777;
+  }
+  
+  .job-status {
+    color: #00cc00;
+    font-weight: bold;
+  }
+  
+  .view-details-btn {
+    background-color: #00cc00;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .view-details-btn:hover {
+    background-color: #009900;
+  }
+  

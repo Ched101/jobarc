@@ -1,0 +1,83 @@
+.user-profile-page {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    padding-top: 50px;
+  }
+  
+  .tabs {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+  }
+  
+  .tab {
+    padding: 10px 20px;
+    background-color: #f4f4f4;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .tab.active {
+    background-color: #007bff;
+    color: white;
+    border-radius: 8px;
+  }
+  
+  .tab-content {
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+  }
+  
+  .tab-section {
+    padding: 20px;
+  }
+  
+  .profile-section {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .profile-picture {
+    flex: 1;
+  }
+  
+  .basic-info {
+    flex: 2;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  input[type="text"], input[type="url"], input[type="date"], input[type="tel"], input[type="email"], select, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .save-btn {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .save-btn:hover {
+    background-color: #0056b3;
+  }
+  
+  .notifications label {
+    display: block;
+    margin: 10px 0;
+  }
+  
