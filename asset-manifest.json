@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/jobarc/static/css/main.01fba9ab.css",
+    "main.js": "/jobarc/static/js/main.fa974f64.js",
+    "static/js/453.783f37a8.chunk.js": "/jobarc/static/js/453.783f37a8.chunk.js",
+    "static/media/avatar2.jpg": "/jobarc/static/media/avatar2.1e130bc6de6faa612408.jpg",
+    "static/media/logo4.png": "/jobarc/static/media/logo4.93bfefa034a6fb02a42e.png",
+    "static/media/bot3.png": "/jobarc/static/media/bot3.80c453c47fc4880bbe28.png",
+    "static/media/logo3.png": "/jobarc/static/media/logo3.dce6256121654b399214.png",
+    "static/media/avatar1.jpg": "/jobarc/static/media/avatar1.faabd40900c66ca1eac3.jpg",
+    "index.html": "/jobarc/index.html",
+    "main.01fba9ab.css.map": "/jobarc/static/css/main.01fba9ab.css.map",
+    "main.fa974f64.js.map": "/jobarc/static/js/main.fa974f64.js.map",
+    "453.783f37a8.chunk.js.map": "/jobarc/static/js/453.783f37a8.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.01fba9ab.css",
+    "static/js/main.fa974f64.js"
+  ]
+}
